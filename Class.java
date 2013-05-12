@@ -4,6 +4,7 @@ package com.codeblue.model;
 import javax.persistence.*;
 @Entity
 public class Class {
+	public static final int a=0;
 	private int classId;
 	private String className;
 	private int grade;//年级
